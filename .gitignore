@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Model files (too large for GitHub)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+*.ckpt
+
+# Data files (if large)
+*.csv
+*.parquet
+*.json
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Outputs
+outputs/
+eval_results/
+chatbot_core/kb_embeddings.pt
+
+# Keep only essential data
+!data/intent_training_dataset_v3_final.csv
+!data/knowledge_base_final.csv
